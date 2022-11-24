@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+	body{
+		background-color: LemonChiffon;
+		font-family: sans-serif;
+	}
+	#intro {
+		background-color: Maroon;
+		font-family: initial;
+		font-weight: bold;
+		font-size: large;
+		color: Ivory;
+	}
+	.label {
+		font-weight: bold;
+		color: IndianRed;
+	}
+	.option{
+		color: Chocolate;
+	}
+	</style>
+</head>
+<body>
+<table border = "1">
+	<tr>
+		<th colspan = "3">
+		<strong><span id = "intro">About -- 111306077</strong></span>
+		</th>
+	</tr>
+	<tr>
+		<th rowspan = "3">
+			<img src = "https://scontent.ftpe4-1.fna.fbcdn.net/v/t1.6435-9/122260518_1646818828834941_929304170606313084_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=51fWcSnRZhoAX-8wQtD&_nc_ht=scontent.ftpe4-1.fna&oh=00_AfB6m2W4Lb9VMCEhnbt1JWWyzpOduFzAE1f6_PPQ2TAR6g&oe=639859F0"	width = "75" heigh = "75" alt = "a handsome guy">
+		</th>
+		<th colspan = "2">
+			<label><div align = "left"><span class = "label">Name:</span><input name = "name" type = "text" size = "20" maxlength = "25"></label><br>
+			<label>
+			<form><span class = "label">Gender:</span>
+				<input type = "radio" name = "gender" value = "Male">
+				<span class = "option">Male</span>
+				<input type = "radio" name = "gender" value = "Female">
+				<span class = "option">Female</span>
+				<input type = "radio" name = "gender" value = "Other">
+				<span class = "option">Other</span>
+			</form></label></div>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<label><div align = "left">
+			<form action><span class = "label">County:</span>
+				<select name = "County">
+					<option value = "Taipei">
+					<span class = "option">Taipei</span></option>
+					<option value = "Tainan">
+					<span class = "option">Tainan</span></option>
+					<option value = "Taichung">
+					<span class = "option">Taichung</span></option>
+					<option value = "Taoyuan">
+						<span class = "option">Taoyuan</span></option>
+				</select>
+			</form></label></div>
+		</th>
+		<th>
+			<label for="Birthday"><div align = "left"><span class = "label">Birthday:</label></span>
+			<input type="date" id="start" name="trip-start"
+       		min="01-01" max="12-31">
+    <tr>
+    	<th colspan = "2">
+    		<label><div align = "left"><span class = "label">E-mail:</span><input name = "name" type = "text" size = "25" maxlength = "30"></label></div></th>
+    	</th>
+    </tr>
+    <tr>
+    	<th><div align = "left">
+    		<span class = "label">Hobby</span>
+    	</th></div>
+    	<th colspan = "2">
+    		<form mathod = "get">
+				<input type = "checkbox" name = "liked" valued = "Swimming">
+				<span class = "option">Swimming</span>
+				<input type = "checkbox" name = "liked" valued = "Volleyball"><span class = "option">Volleyball</span>
+				<input type = "checkbox" name = "liked" valued = "Movie">
+				<span class = "option">Movie</span>
+				<input type = "checkbox" name = "liked" valued = "Game">
+				<span class = "option">Game</span>
+				<input type = "checkbox" name = "liked" valued = "sleep"><span class = "option">sleep</span></form>
+		</th>
+    </tr>
+    <tr>
+    	<th><div align = "left">
+    		<span class = "label">Skill</span>
+    	</th></div>
+    	<th colspan = "2">
+    		<form mathod = "get">
+				<input type = "checkbox" name = "liked" valued = "Java">
+				<span class = "option">Java</span>
+				<input type = "checkbox" name = "liked" valued = "HTML">
+				<span class = "option">HTML</span>
+				<input type = "checkbox" name = "liked" valued = "Movie">
+				<span class = "option">Movie</span>
+				<input type = "checkbox" name = "liked" valued = "Python">
+				<span class = "option">Python</span>
+				<input type = "checkbox" name = "liked" valued = "Microsoft Office"><span class = "option">Microsoft Office</span>
+				<input type = "checkbox" name = "liked" valued = "Premiere">
+				<span class = "option">Premiere</span></form>
+		</th>
+    </tr>
+    <tr>
+    	<th><div align = "left">
+    		<span class = "label">Say something</span>
+    	</th></div>
+    	<th colspan = "2">
+    		<div align = "left"><textarea rows = "1" cols = "42">Say something here.</textarea></div>
+		</th>
+    </tr>
+    <tr>
+    	<th colspan = "3"><div align = "left">
+    		<input type = "submit" value = "提交">
+			<input type = "reset" value = "重設">
+		</th></div>
+	</tr>
+</body>
+</html>
