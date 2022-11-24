@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+	body{
+		background-color: CadetBlue;
+		font-family: sans-serif;
+	}
+	#intro {
+		background-color: Cornsilk;
+		font-family: initial;
+		color: SlateGrey;
+		font-weight: bold;
+	}
+	.label {
+		background-color: Khaki;
+		font-weight: bold;
+		color: DarkSlateGrey;
+	}
+	</style>
+</head>
+<body>
+<p><b><h1>New HTML5 Input Types Demo</p></b></h1>
+<p><span id = "intro">This form demonstrated the new HTML5 input types and the placeholder, required and autofocus attributes.</span></p>
+<label><span class = "label">Color:</span>
+	<input type = "color" autofocus />
+		(Hexadecimal code such as #ADD8E6)
+</label>
+<p><form action = "/action_page.php">
+	<label ><span class = "label">Date:</label></span>
+	<input type = "date">
+	(yyyy-mm-dd)
+</form></p>
+<p><form>
+	<label ><span class = "label">Email:</label></span>
+	<input type = "email" name = "email" placeholder = "name@domain.com" required>
+	(name@domain.com)
+</form></p>
+<p><form action = "/action_page.php">
+	<label><span class = "label">Number:</label></span>
+	<input type = "number" min = "0" max = "7" value = "4">
+	(Enter a number between 0 and 7)
+</form></p>
+<p><form action = "/action_page.php" method = "get">
+	<label><span class = "label">Range:</label></span>
+	0<input type = "range" min = "0" max = "20">20
+</form></p>
+<p><form action = "/action_page.php">
+	<label><span class = "label">Search:</label></span>
+	<input type = "text" placeholder = "search query">
+</form></p>
+<p><form action = "/action_page.php">
+	<label><span class = "label">Time:</label></span>
+	<input type = "time">
+	(hh:mm)
+</form></p>
+<p><input type = "submit" value = "Submit">
+<input type = "reset" value = "Clear"></p>
+
+</body> 
+</html>
